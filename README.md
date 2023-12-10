@@ -10,6 +10,11 @@ The default branch is master here.
 Looking forward to the opportunity to learn and grow together.
 Thanks
 
+Command line syntax sample:
+1. python "process_1.py" --to_process "raw_data.parquet" --output_dir evaluation_data/sample/process1"
+2. python "process_2.py" --to_process evaluation_data/sample/process1 --output_dir evaluation_data/sample/process2"
+3. python "process_2.py" --to_process evaluation_data/sample/process2 --output_dir evaluation_data/sample/process3"
+
 ## Overview
 
 This assessment evaluates your Python skills in following aspects - pandas data wrangling, API response retrieval, async programming, and JSON response manipulation. Your performance will be assessed on correctness against predefined test cases, execution runtime efficiency, and adherence to Python best practices.
